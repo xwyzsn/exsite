@@ -38,18 +38,18 @@
           {{ lab_desc }}
         </p>
         <ol class="tw-list-disc
-        md:tw-list-none
-        md:tw-grid
-        md:tw-grid-cols-3
-        md:tw-justify-center
-        md:tw-w-5/6
-        md:tw-m-auto
-      ">
+                        md:tw-list-none
+                        md:tw-grid
+                        md:tw-grid-cols-3
+                        md:tw-justify-center
+                        md:tw-w-5/6
+                        md:tw-m-auto
+                      ">
           <li class="
-        tw-m-4 
-        hover:tw-bg-slate-100 
-        hover:tw-cursor-pointer
-        " v-for="(i, idx) in research" :key="idx">
+                        tw-m-4 
+                        hover:tw-bg-slate-100 
+                        hover:tw-cursor-pointer
+                        " v-for="(i, idx) in research" :key="idx">
             <a :href="i.destination">
               <div class="row">
                 <div class="col-6">
@@ -98,7 +98,7 @@ api.get('/news').then(res => {
 })
 
 
-let lab_desc = ref("决策智能实验室依托华东师范大学，数据科学与工程学院，具有一只国际化，高水平导师团队，一人入选国家级领军人才，一人入选国家级青年人才。主要研究方向涵盖人工智能、机器学习和数据管理。通过对复杂异构数据（例如时间序列、时空数据、图、图像和分子结构等）进行高精度、高效率、自动的、高鲁棒性、可解释的分析和管理，助力不同行业的数字化转型和不同应用领域的决策支持。")
+let lab_desc = ref("决策智能实验室依托华东师范大学，数据科学与工程学院，具有一只国际化，高水平导师团队，一人入选国家级领军人才，两人入选国家级青年人才，一人入选上海市领军人才。主要研究方向涵盖人工智能、机器学习和数据管理。通过对复杂异构数据（例如时间序列、时空数据、图、图像和分子结构等）进行高精度、高效率、自动的、高鲁棒性、可解释的分析和管理，助力不同行业的数字化转型和不同应用领域的决策支持。")
 
 
 </script>
